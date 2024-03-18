@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Trouser",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "trouser.js"
+  },
+
+  "description": "Trouser",
+  "version": "1.0",
+  "action": {
+    "default_popup": "trouser.html",
+    "default_icon": {
+      "16": "images/tr16.png",
+      "48": "images/tr48.png",
+      "128": "images/tr128.png"
+    },
+    "scripts": ["trouser.popup.js"]
+  }
+}

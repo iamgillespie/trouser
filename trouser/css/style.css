@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(36, 161, 192, 0.767);    
+    color: azure;
+}
+
+div#trouserDiv{
+text-align: center;
+width: 15rem;
+padding: 5px;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
